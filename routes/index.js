@@ -14,7 +14,7 @@ router.get('/me', auth, userController.me)
 router.post('/refresh', refreshController.refresh)
 router.post('/logout', auth, loginController.logout)
 // For products
-router.post('/products', auth, productController.store)
+router.post('/products', [auth, admin], productController.store)
 // For update the product
 router.put('/products/:id', [auth, admin], productController.update)
 // For delete the product
