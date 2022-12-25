@@ -10,7 +10,7 @@ I created an api using nodejs, express and mongod. In this the user can access t
  <h2> To fetch the products : </h2> <a> https://vast-pear-xerus-hose.cyclic.app/api/products </a>
  
    
-  <h1> FOR AUTHENTICATIONn </h1>
+  <h1> FOR AUTHENTICATION </h1>
   <h2> For LogIn :</h2> <a>https://vast-pear-xerus-hose.cyclic.app/api/login </a>
   
   <h2> For Register : </h2>  <a>https://vast-pear-xerus-hose.cyclic.app/api/register </a>
